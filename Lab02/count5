@@ -1,0 +1,34 @@
+//Convert small integers to words
+//by Megan Wong z5241209@ad.unsw.edu.au
+//Written on 21/05/2019
+#include <stdio.h>
+
+int main(void)
+{
+    int num;
+    printf("Please enter an integer: ");
+    scanf("%d", &num);
+    
+    if(num == 1) {
+    printf("You entered one.\n");
+    }
+    if(num == 2) {
+    printf("You entered two.\n");
+    }
+    if(num == 3) {
+    printf("You entered three.\n");
+    }
+    if(num == 4) {
+    printf("You entered four.\n");
+    }
+    if(num == 5) {
+    printf("You entered five.\n");
+    }
+    if(num < 1) {
+    printf("You entered a number less than one.\n");
+    }
+    if(num > 5) {
+    printf("You entered a number greater than five.\n");
+    }
+    return 0;
+}
